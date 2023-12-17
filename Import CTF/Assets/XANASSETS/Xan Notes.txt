@@ -1,0 +1,33 @@
+TODO
+
+- Stat customizers
+- Guns (raycast w/ projectile visuals)
+
+DONE
+
+- Scoring
+- Flags
+- Game Sections
+- Game Timer
+- Teams
+- Patreon detection
+
+
+
+!!  TALK TO JEDI FO ANY QUESTIONS  !!
+
+
+
+EXTRA FEATURES
+- Classic Mode
+	- No Stats, base ctf
+- Pistols Only Mode
+	- Self explanatory
+- Hand Scoreboard?
+
+- V2 - maybe late joiners?
+
+- Settings
+- Announcer
+
+- Patreon Skins

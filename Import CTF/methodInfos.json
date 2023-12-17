@@ -1,0 +1,886 @@
+{
+	"UdonSharp.Examples.Utilities.TrackingDataFollower.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.TrackingDataFollower.LateUpdate()": {
+		"methodName": "_lateUpdate",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkInterface.SendMethodNetworked(string, SyncTarget, params VRC.SDK3.Data.DataToken[])": {
+		"methodName": "__0_SendMethodNetworked",
+		"parameters": [
+			"__0_methodName__param",
+			"__0_target__param",
+			"__0_paramTokens__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkInterface.SetupInterface()": {
+		"methodName": "SetupInterface",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkInterface.OnCallerAssigned()": {
+		"methodName": "OnCallerAssigned",
+		"parameters": null
+	},
+	"Scoring.OnPlayerTriggerEnter(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerTriggerEnter",
+		"parameters": [
+			"onPlayerTriggerEnterPlayer"
+		]
+	},
+	"Scoring.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"GameEventListener.instance()": {
+		"methodName": "instance",
+		"parameters": null
+	},
+	"GameEventListener.OnGamePrep()": {
+		"methodName": "OnGamePrep",
+		"parameters": null
+	},
+	"GameEventListener.OnGameStart()": {
+		"methodName": "OnGameStart",
+		"parameters": null
+	},
+	"GameEventListener.OnGameEnd()": {
+		"methodName": "OnGameEnd",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.WorldAudioSettings.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerJoined",
+		"parameters": [
+			"onPlayerJoinedPlayer"
+		]
+	},
+	"TeamManager.instance()": {
+		"methodName": "instance",
+		"parameters": null
+	},
+	"TeamManager.SyncArrays()": {
+		"methodName": "SyncArrays",
+		"parameters": null
+	},
+	"TeamManager.AddPlayer(string, int)": {
+		"methodName": "__0_AddPlayer",
+		"parameters": [
+			"__0_teamId__param",
+			"__0_playerId__param"
+		]
+	},
+	"TeamManager.RemovePlayer(int)": {
+		"methodName": "__0_RemovePlayer",
+		"parameters": [
+			"__1_playerId__param"
+		]
+	},
+	"TeamManager.BravoTeam()": {
+		"methodName": "BravoTeam",
+		"parameters": null
+	},
+	"TeamManager.AlphaTeam()": {
+		"methodName": "AlphaTeam",
+		"parameters": null
+	},
+	"TeamManager.Leave()": {
+		"methodName": "Leave",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleUrlInput()": {
+		"methodName": "_HandleUrlInput",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleUrlInputDelay()": {
+		"methodName": "_HandleUrlInputDelay",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleUrlInputClick()": {
+		"methodName": "_HandleUrlInputClick",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleUrlInputChange()": {
+		"methodName": "_HandleUrlInputChange",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleSync()": {
+		"methodName": "_HandleSync",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleStop()": {
+		"methodName": "_HandleStop",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleLock()": {
+		"methodName": "_HandleLock",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleLoad()": {
+		"methodName": "_HandleLoad",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleProgressBeginDrag()": {
+		"methodName": "_HandleProgressBeginDrag",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleProgressEndDrag()": {
+		"methodName": "_HandleProgressEndDrag",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._HandleProgressSliderChanged()": {
+		"methodName": "_HandleProgressSliderChanged",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._SetStatusOverride(string, float)": {
+		"methodName": "__0__SetStatusOverride",
+		"parameters": [
+			"__0_msg__param",
+			"__0_timeout__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController._ClearStatusOverride()": {
+		"methodName": "_ClearStatusOverride",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.SetStatusText(string)": {
+		"methodName": "__0_SetStatusText",
+		"parameters": [
+			"__1_msg__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.SetPlaceholderText(string)": {
+		"methodName": "__0_SetPlaceholderText",
+		"parameters": [
+			"__2_msg__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.FindOwners()": {
+		"methodName": "FindOwners",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.MakeOwnerMessage()": {
+		"methodName": "MakeOwnerMessage",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayerController.OnPlayerLeft(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerLeft",
+		"parameters": [
+			"onPlayerLeftPlayer"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.OnEnable()": {
+		"methodName": "_onEnable",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerJoined",
+		"parameters": [
+			"onPlayerJoinedPlayer"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.OnPlayerLeft(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerLeft",
+		"parameters": [
+			"onPlayerLeftPlayer"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkManager._Cleanup()": {
+		"methodName": "_Cleanup",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.Log(object)": {
+		"methodName": "__0_Log",
+		"parameters": [
+			"__0_log__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.Log(string)": {
+		"methodName": "__1_Log",
+		"parameters": [
+			"__1_log__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkManager.OnCallerAssigned()": {
+		"methodName": "OnCallerAssigned",
+		"parameters": null
+	},
+	"TeamTeleporter.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"TeamTeleporter.OnGamePrep()": {
+		"methodName": "OnGamePrep",
+		"parameters": null
+	},
+	"TeamTeleporter.OnGameEnd()": {
+		"methodName": "OnGameEnd",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.InitIDs()": {
+		"methodName": "InitIDs",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.FindThemeColorController()": {
+		"methodName": "FindThemeColorController",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.GetSettings()": {
+		"methodName": "GetSettings",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.UpdateSettings()": {
+		"methodName": "UpdateSettings",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.ResetSettings()": {
+		"methodName": "ResetSettings",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkController.Remap(float, float, float, float, float)": {
+		"methodName": "__0_Remap",
+		"parameters": [
+			"__0_t__param",
+			"__0_a__param",
+			"__0_b__param",
+			"__0_u__param",
+			"__0_v__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.SetupCaller()": {
+		"methodName": "SetupCaller",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.OnPreSerialization()": {
+		"methodName": "_onPreSerialization",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.OnPostSerialization(VRC.Udon.Common.SerializationResult)": {
+		"methodName": "_onPostSerialization",
+		"parameters": [
+			"onPostSerializationResult"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller._PrepareSend(SyncTarget, string, int, VRC.SDK3.Data.DataToken[])": {
+		"methodName": "__0__PrepareSend",
+		"parameters": [
+			"__0_target__param",
+			"__0_method__param",
+			"__0_scriptTarget__param",
+			"__0_data__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.SendData(int, int, VRC.SDK3.Data.DataToken[])": {
+		"methodName": "__0_SendData",
+		"parameters": [
+			"__1_method__param",
+			"__1_scriptTarget__param",
+			"__1_data__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller._SendQueue()": {
+		"methodName": "_SendQueue",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.ReceiveData()": {
+		"methodName": "ReceiveData",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.SetUdonVariable(string, VRC.SDK3.Data.DataToken)": {
+		"methodName": "__0_SetUdonVariable",
+		"parameters": [
+			"__0_variable__param",
+			"__0_token__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.OnEnable()": {
+		"methodName": "_onEnable",
+		"parameters": null
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.Log(object)": {
+		"methodName": "__0_Log",
+		"parameters": [
+			"__0_log__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.LogWarning(object)": {
+		"methodName": "__0_LogWarning",
+		"parameters": [
+			"__1_log__param"
+		]
+	},
+	"Miner28.UdonUtils.Network.NetworkedEventCaller.LogError(object)": {
+		"methodName": "__0_LogError",
+		"parameters": [
+			"__2_log__param"
+		]
+	},
+	"Flag.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"Flag.OnPickup()": {
+		"methodName": "_onPickup",
+		"parameters": null
+	},
+	"Flag.OnDrop()": {
+		"methodName": "_onDrop",
+		"parameters": null
+	},
+	"Flag.DropFlag()": {
+		"methodName": "DropFlag",
+		"parameters": null
+	},
+	"Flag.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"Flag.Respawn()": {
+		"methodName": "Respawn",
+		"parameters": null
+	},
+	"Flag.Score()": {
+		"methodName": "Score",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.PlayerModSetter.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"GameTimer.OnGameStart()": {
+		"methodName": "OnGameStart",
+		"parameters": null
+	},
+	"GameTimer.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"ScoringDisplay.UpdateDisplay(int, int)": {
+		"methodName": "__0_UpdateDisplay",
+		"parameters": [
+			"__0__alphaScore__param",
+			"__0__bravoScore__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._TriggerPlay()": {
+		"methodName": "_TriggerPlay",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._TriggerStop()": {
+		"methodName": "_TriggerStop",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._TriggerLock()": {
+		"methodName": "_TriggerLock",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._Resync()": {
+		"methodName": "_Resync",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._ChangeUrl(VRC.SDKBase.VRCUrl)": {
+		"methodName": "__0__ChangeUrl",
+		"parameters": [
+			"__0_url__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._UpdateQueuedUrl(VRC.SDKBase.VRCUrl)": {
+		"methodName": "__0__UpdateQueuedUrl",
+		"parameters": [
+			"__1_url__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._SetTargetTime(float)": {
+		"methodName": "__0__SetTargetTime",
+		"parameters": [
+			"__0_time__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._PlayVideo(VRC.SDKBase.VRCUrl)": {
+		"methodName": "__0__PlayVideo",
+		"parameters": [
+			"__2_url__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._LoopVideo()": {
+		"methodName": "_LoopVideo",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._PlayQueuedUrl()": {
+		"methodName": "_PlayQueuedUrl",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._IsUrlValid(VRC.SDKBase.VRCUrl)": {
+		"methodName": "__0__IsUrlValid",
+		"parameters": [
+			"__3_url__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._ParseTimeFromUrl(string)": {
+		"methodName": "__0__ParseTimeFromUrl",
+		"parameters": [
+			"__0_urlStr__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._StartVideoLoadDelay(float)": {
+		"methodName": "__0__StartVideoLoadDelay",
+		"parameters": [
+			"__0_delay__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._StartVideoLoad()": {
+		"methodName": "_StartVideoLoad",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._StopVideo()": {
+		"methodName": "_StopVideo",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.OnVideoReady()": {
+		"methodName": "_onVideoReady",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.OnVideoStart()": {
+		"methodName": "_onVideoStart",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.OnVideoEnd()": {
+		"methodName": "_onVideoEnd",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.OnVideoError(VRC.SDK3.Components.Video.VideoError)": {
+		"methodName": "_onVideoError",
+		"parameters": [
+			"onVideoErrorVideoError"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._IsAdmin()": {
+		"methodName": "_IsAdmin",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._CanTakeControl()": {
+		"methodName": "_CanTakeControl",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.OnPostSerialization(VRC.Udon.Common.SerializationResult)": {
+		"methodName": "_onPostSerialization",
+		"parameters": [
+			"onPostSerializationResult"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.SyncVideoIfTime()": {
+		"methodName": "SyncVideoIfTime",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.SyncVideo()": {
+		"methodName": "SyncVideo",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._ForceResync()": {
+		"methodName": "_ForceResync",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer._UpdatePlayerState(int)": {
+		"methodName": "__0__UpdatePlayerState",
+		"parameters": [
+			"__0_state__param"
+		]
+	},
+	"VRCAudioLink.AudioLinkMiniPlayer.DebugLog(string)": {
+		"methodName": "__0_DebugLog",
+		"parameters": [
+			"__0_message__param"
+		]
+	},
+	"PlayerStats.instance()": {
+		"methodName": "instance",
+		"parameters": null
+	},
+	"PlayerStats.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"PlayerStats.PickupGun(float, float, float)": {
+		"methodName": "__0_PickupGun",
+		"parameters": [
+			"__0_gunDmg__param",
+			"__0_gunFireRate__param",
+			"__0_gunReloadTime__param"
+		]
+	},
+	"PlayerStats.ConfirmStats()": {
+		"methodName": "ConfirmStats",
+		"parameters": null
+	},
+	"PlayerStats.TakeDamage(float, int, int)": {
+		"methodName": "__0_TakeDamage",
+		"parameters": [
+			"__0_damage__param",
+			"__0_idTaking__param",
+			"__0_idGiving__param"
+		]
+	},
+	"PlayerStats.OnKillFeat(int, int)": {
+		"methodName": "__0_OnKillFeat",
+		"parameters": [
+			"__0_idKilled__param",
+			"__0_idKiller__param"
+		]
+	},
+	"StartButton.StartGame()": {
+		"methodName": "StartGame",
+		"parameters": null
+	},
+	"StartButton.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"StartButton.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"VRCAudioLink.GlobalSlider.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.GlobalSlider.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"VRCAudioLink.GlobalSlider.SlideUpdate()": {
+		"methodName": "SlideUpdate",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.SelectCustomColor0()": {
+		"methodName": "SelectCustomColor0",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.SelectCustomColor1()": {
+		"methodName": "SelectCustomColor1",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.SelectCustomColor2()": {
+		"methodName": "SelectCustomColor2",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.SelectCustomColor3()": {
+		"methodName": "SelectCustomColor3",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.SelectCustomColorN(int)": {
+		"methodName": "__0_SelectCustomColorN",
+		"parameters": [
+			"__0_n__param"
+		]
+	},
+	"VRCAudioLink.ThemeColorController.OnGUIchange()": {
+		"methodName": "OnGUIchange",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.ResetThemeColors()": {
+		"methodName": "ResetThemeColors",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.UpdateGUI()": {
+		"methodName": "UpdateGUI",
+		"parameters": null
+	},
+	"VRCAudioLink.ThemeColorController.UpdateAudioLinkThemeColors()": {
+		"methodName": "UpdateAudioLinkThemeColors",
+		"parameters": null
+	},
+	"PatreonList.instance()": {
+		"methodName": "instance",
+		"parameters": null
+	},
+	"PatreonList.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"PatreonList.OnStringLoadSuccess(VRC.SDK3.StringLoading.IVRCStringDownload)": {
+		"methodName": "_onStringLoadSuccess",
+		"parameters": [
+			"onStringLoadSuccessIVRCStringDownload"
+		]
+	},
+	"PatreonList.UpdateString()": {
+		"methodName": "UpdateString",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurfaceArray.InitIDs()": {
+		"methodName": "InitIDs",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurfaceArray.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurfaceArray.UpdateChildren()": {
+		"methodName": "UpdateChildren",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurfaceArray.HueShift(UnityEngine.Color, float)": {
+		"methodName": "__0_HueShift",
+		"parameters": [
+			"__0_color__param",
+			"__0_hueShiftAmount__param"
+		]
+	},
+	"UdonSharp.Examples.Utilities.GlobalToggleObject.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.GlobalToggleObject.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.GlobalToggleObject.Interact()": {
+		"methodName": "_interact",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.GetElapsedSecondsSince2019()": {
+		"methodName": "GetElapsedSecondsSince2019",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.InitIDs()": {
+		"methodName": "InitIDs",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.FPSUpdate()": {
+		"methodName": "FPSUpdate",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.OnPostRender()": {
+		"methodName": "_onPostRender",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.OnEnable()": {
+		"methodName": "_onEnable",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.OnDisable()": {
+		"methodName": "_onDisable",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.UpdateSettings()": {
+		"methodName": "UpdateSettings",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.UpdateThemeColors()": {
+		"methodName": "UpdateThemeColors",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.IntToFloatBits24Bit(uint)": {
+		"methodName": "__0_IntToFloatBits24Bit",
+		"parameters": [
+			"__0_value__param"
+		]
+	},
+	"VRCAudioLink.AudioLink.OnPlayerJoined(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerJoined",
+		"parameters": [
+			"onPlayerJoinedPlayer"
+		]
+	},
+	"VRCAudioLink.AudioLink.OnPlayerLeft(VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onPlayerLeft",
+		"parameters": [
+			"onPlayerLeftPlayer"
+		]
+	},
+	"VRCAudioLink.AudioLink.FindAndUpdateMasterName()": {
+		"methodName": "FindAndUpdateMasterName",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.UpdateCustomStrings()": {
+		"methodName": "UpdateCustomStrings",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.UpdateGlobalString(int, string)": {
+		"methodName": "__0_UpdateGlobalString",
+		"parameters": [
+			"__0_nameID__param",
+			"__0_input__param"
+		]
+	},
+	"VRCAudioLink.AudioLink.EnableAudioLink()": {
+		"methodName": "EnableAudioLink",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.DisableAudioLink()": {
+		"methodName": "DisableAudioLink",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.EnableReadback()": {
+		"methodName": "EnableReadback",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.DisableReadback()": {
+		"methodName": "DisableReadback",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.SendAudioOutputData()": {
+		"methodName": "SendAudioOutputData",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioLink.Remap(float, float, float, float, float)": {
+		"methodName": "__0_Remap",
+		"parameters": [
+			"__0_t__param",
+			"__0_a__param",
+			"__0_b__param",
+			"__0_u__param",
+			"__0_v__param"
+		]
+	},
+	"UdonSharp.Examples.Utilities.MasterToggleObject.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.MasterToggleObject.OnOwnershipRequest(VRC.SDKBase.VRCPlayerApi, VRC.SDKBase.VRCPlayerApi)": {
+		"methodName": "_onOwnershipRequest",
+		"parameters": [
+			"onOwnershipRequestRequester",
+			"onOwnershipRequestNewOwner"
+		]
+	},
+	"UdonSharp.Examples.Utilities.MasterToggleObject.OnDeserialization()": {
+		"methodName": "_onDeserialization",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.MasterToggleObject.Interact()": {
+		"methodName": "_interact",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveObject.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveObject.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveObject.UpdateDataIndex()": {
+		"methodName": "UpdateDataIndex",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveLight.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveLight.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveLight.HueShift(UnityEngine.Color, float)": {
+		"methodName": "__0_HueShift",
+		"parameters": [
+			"__0_color__param",
+			"__0_hueShiftAmount__param"
+		]
+	},
+	"GameManager.instance()": {
+		"methodName": "instance",
+		"parameters": null
+	},
+	"GameManager.OnGamePrep()": {
+		"methodName": "OnGamePrep",
+		"parameters": null
+	},
+	"GameManager.OnGameStart()": {
+		"methodName": "OnGameStart",
+		"parameters": null
+	},
+	"GameManager.OnGameEnd()": {
+		"methodName": "OnGameEnd",
+		"parameters": null
+	},
+	"Gun.Awake()": {
+		"methodName": "Awake",
+		"parameters": null
+	},
+	"Gun.OnPickup()": {
+		"methodName": "_onPickup",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.BoneFollower.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.BoneFollower.Update()": {
+		"methodName": "_update",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurface.InitIDs()": {
+		"methodName": "InitIDs",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurface.Start()": {
+		"methodName": "_start",
+		"parameters": null
+	},
+	"VRCAudioLink.AudioReactiveSurface.UpdateMaterial()": {
+		"methodName": "UpdateMaterial",
+		"parameters": null
+	},
+	"UdonSharp.Examples.Utilities.InteractToggle.Interact()": {
+		"methodName": "_interact",
+		"parameters": null
+	}
+}

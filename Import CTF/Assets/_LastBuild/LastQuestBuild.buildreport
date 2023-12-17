@@ -1,0 +1,757 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-4923378065101673941
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastQuestBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637941437614518673
+    buildGUID: 00000000000000000000000000000000
+    platformName: Android
+    platformGroupName: Android
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/LukeB/AppData/Local/Temp/DefaultCompany/CTF VRC/scene-android-samplescene.vrcw
+    crc: 84780185
+    totalSize: 2276483
+    totalTimeTicks: 432744697
+    totalErrors: 0
+    totalWarnings: 2
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/New folder/Unity/CTF VRC/scene-android-samplescene.vrcw/BuildPlayer-SampleScene
+    role: Scene
+    id: 0
+    totalSize: 358724
+  - path: D:/New folder/Unity/CTF VRC/scene-android-samplescene.vrcw/BuildPlayer-SampleScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 12471940
+  - path: D:/New folder/Unity/CTF VRC/scene-android-samplescene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 2273962
+  - path: D:/New folder/Unity/CTF VRC/scene-android-samplescene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 1319
+  - path: D:/New folder/Unity/CTF VRC/CTF VRC/CAB-9aae325ebe1f19baee0d04fecd091275
+    role: ResourcesFile
+    id: 4
+    totalSize: 4300
+  - path: D:/New folder/Unity/CTF VRC/CTF VRC
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1044
+  - path: D:/New folder/Unity/CTF VRC/CTF VRC.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 158
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 432744697
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 352756
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 57788263
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 318197539
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2789120
+    depth: 2
+    messages:
+    - type: 2
+      content: Warning! Using antialiasing on a mobile device may decrease performance
+        severely. You can change the mobile quality settings in 'Project Settings
+        -> Quality Settings'.
+    - type: 2
+      content: Warning! Using more than 1 pixel lights on a mobile device may decrease
+        performance severely. You can change the mobile quality settings in 'Project
+        Settings -> Quality Settings'.
+  - stepName: Building scenes
+    durationTicks: 249121234
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/SampleScene.unity
+    durationTicks: 249101199
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 24533421
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
+    durationTicks: 24497455
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 26448828
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 98084
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 4801054654768702283}
+  - {fileID: 9206685376576980229}
+  - {fileID: 2247554581611878224}
+  - {fileID: -4923378065101673941}
+  - {fileID: 5948190571365129086}
+--- !u!382020655 &2247554581611878224
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Burst.Unsafe
+  - System.Threading.Tasks.Extensions
+  - VRC.Udon.ClientBindings
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - nunit.framework
+  - OVRPlugin
+  - librsync.net
+  - VRC.Udon.Common
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Udon.Wrapper
+  - VRC.Utility
+  - VRC.Udon.Security
+  - clipper_library
+  - VRC.Collections
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - libAudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - openvr_api
+  - VRCSDK3-Editor
+  - VRC.Udon.VRCTypeResolverModules
+  - portmidi
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - AudioPluginOculusSpatializer
+  - VRC.Udon.UAssembly
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - VRCSDKBase-Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - libopenvr_api
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!668709126 &4801054654768702283
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-android-samplescene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: CTF VRC
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!1126 &5948190571365129086
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-9aae325ebe1f19baee0d04fecd091275
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 100
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &9206685376576980229
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-SampleScene.sharedAssets
+  m_Overhead: 69875
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 49
+    offset: 70168
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 148
+    offset: 70224
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 896
+    offset: 70376
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 4
+    classID: 21
+    packedSize: 896
+    offset: 71272
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 5
+    classID: 21
+    packedSize: 892
+    offset: 72168
+    sourceAssetGUID: 4454618e8fb1efe42bea4af32520bc72
+    buildTimeAssetPath: Assets/My Stuff/Materials/Bridge.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 892
+    offset: 73064
+    sourceAssetGUID: d8494bc7e20db9a42b8b0c79ddd39e64
+    buildTimeAssetPath: Assets/My Stuff/Materials/Detail.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 684
+    offset: 73960
+    sourceAssetGUID: 29ef60bcaeeee8f4e9d0501662537976
+    buildTimeAssetPath: Assets/My Stuff/Materials/Neutral.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 896
+    offset: 74648
+    sourceAssetGUID: 9311d3bc2968dca46bd884ace89db021
+    buildTimeAssetPath: Assets/My Stuff/Materials/RailTexture.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 900
+    offset: 75544
+    sourceAssetGUID: d8730a2ec0d05784d89493905c7f3192
+    buildTimeAssetPath: Assets/My Stuff/Materials/Sci_Fi_WalkwayB.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 684
+    offset: 76448
+    sourceAssetGUID: 9b8cee6f2824aae40bdeac00ebb4d64d
+    buildTimeAssetPath: Assets/My Stuff/Materials/Team 1.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 892
+    offset: 77136
+    sourceAssetGUID: 916ee8a9dd5853f4e893934af12700f5
+    buildTimeAssetPath: Assets/My Stuff/Materials/Team 2.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 900
+    offset: 78032
+    sourceAssetGUID: 47457df5c140a844f81381d03c11fb31
+    buildTimeAssetPath: Assets/My Stuff/Materials/WalkwayCorner.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 896
+    offset: 78936
+    sourceAssetGUID: 2bc25b299cf17874e8e182b5c0d4a6b8
+    buildTimeAssetPath: Assets/My Stuff/Materials/sci-fi-Rim.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 900
+    offset: 79832
+    sourceAssetGUID: 63e31fe2ea8c04f43b842e8a61a3d615
+    buildTimeAssetPath: Assets/My Stuff/Materials/sci-fi-Storage.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 896
+    offset: 80736
+    sourceAssetGUID: 1c89ea866287e1b4aba2ddbc24586e93
+    buildTimeAssetPath: Assets/My Stuff/Materials/sci_fi_Wall.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 712
+    offset: 81632
+    sourceAssetGUID: 7e7d1924667c5d34298de39431af0977
+    buildTimeAssetPath: Assets/My Stuff/Textures/Materials/Background Stars.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 924
+    offset: 82344
+    sourceAssetGUID: 10de6384af0c3b54e8166f9c3f936e88
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base
+      color.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 936
+    offset: 83272
+    sourceAssetGUID: 0dc773308a90b4d46b08202cbde5b80d
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/coffee
+      color.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 928
+    offset: 84208
+    sourceAssetGUID: 66fe1a0e0becc6f4bbc49896f2111756
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/iron
+      man color.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 956
+    offset: 85136
+    sourceAssetGUID: 62dcf96e239eb0d4db44cbe622abf152
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Materials/lattice floor.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 912
+    offset: 86096
+    sourceAssetGUID: 6b6dfd77776c54a4781ec8cab4d87860
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Materials/white emision.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 544
+    offset: 87008
+    sourceAssetGUID: c2c33447d8a9c48e0aebebbe09c0a6a2
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Materials/1panel_G.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 552
+    offset: 87552
+    sourceAssetGUID: de7e32ef6c2e84928aee67cf65292972
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Materials/1panel_braced_C.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 552
+    offset: 88104
+    sourceAssetGUID: 28c4d4343a504460fb156afb9b858311
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Materials/1panel_braced_D.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 548
+    offset: 88656
+    sourceAssetGUID: 923b95e6abf5a4f5ab9ec1d101f3f788
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Materials/2panel_vent.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 800
+    offset: 89208
+    sourceAssetGUID: c22777d6e868e4f2fb421913386b154e
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  - fileID: 27
+    classID: 28
+    packedSize: 2852
+    offset: 90008
+    sourceAssetGUID: 0444929aa8d1adf45a0fe7c3c3c8d205
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Textures/coffee-color.png
+  - fileID: 28
+    classID: 28
+    packedSize: 43816
+    offset: 92864
+    sourceAssetGUID: 0ee3edd92a04245d5a2bb14a5e26e50e
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Textures/1panel_braced_D.png
+  - fileID: 29
+    classID: 28
+    packedSize: 699172
+    offset: 136680
+    sourceAssetGUID: 12bc819c4cbbf2c479115ed0c8c2fe0d
+    buildTimeAssetPath: Assets/My Stuff/Textures/sci_fi_Wall.png
+  - fileID: 30
+    classID: 28
+    packedSize: 349656
+    offset: 835856
+    sourceAssetGUID: 26d4d63e94c354a478b2fe05bb112302
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Textures/lattice.png
+  - fileID: 31
+    classID: 28
+    packedSize: 43812
+    offset: 1185512
+    sourceAssetGUID: 30d1e6a3fca4f4ff687d27be324c45dd
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Textures/2panel_vent.png
+  - fileID: 32
+    classID: 28
+    packedSize: 2796328
+    offset: 1229328
+    sourceAssetGUID: 34238fa8feef8de41bd60c75fc5a03a4
+    buildTimeAssetPath: Assets/My Stuff/Textures/Background Stars.png
+  - fileID: 33
+    classID: 28
+    packedSize: 699176
+    offset: 4025656
+    sourceAssetGUID: 4510b3971ecb10b49b5dd89addfebd97
+    buildTimeAssetPath: Assets/My Stuff/Textures/sci-fi-Storage.png
+  - fileID: 34
+    classID: 28
+    packedSize: 699172
+    offset: 4724832
+    sourceAssetGUID: 4ffbbccfbf223734493237a1c44b3af4
+    buildTimeAssetPath: Assets/My Stuff/Textures/sci-fi-Rim.png
+  - fileID: 35
+    classID: 28
+    packedSize: 349652
+    offset: 5424008
+    sourceAssetGUID: 54cbd832b9316a24e94ca79b0881c7ae
+    buildTimeAssetPath: Assets/My Stuff/Textures/RailTexture.png
+  - fileID: 36
+    classID: 28
+    packedSize: 213364
+    offset: 5773664
+    sourceAssetGUID: 5ef1ecb17b682174ebbeed9a9d7af166
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Textures/mettalic.png
+  - fileID: 37
+    classID: 28
+    packedSize: 174888
+    offset: 5987032
+    sourceAssetGUID: 6344bf96fbda94141a525046d088fb23
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
+  - fileID: 38
+    classID: 28
+    packedSize: 699200
+    offset: 6161920
+    sourceAssetGUID: 64e5c115d36ab0147a1813354c38e6bc
+    buildTimeAssetPath: Assets/My Stuff/Textures/Sci_Fi_WalkwayB.png
+  - fileID: 39
+    classID: 28
+    packedSize: 43816
+    offset: 6861120
+    sourceAssetGUID: 730c9cf738783480dac06d12d0e99d70
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Textures/1panel_braced_C.png
+  - fileID: 40
+    classID: 28
+    packedSize: 699168
+    offset: 6904936
+    sourceAssetGUID: 747d6b4f8d68c2049b2c5672189abe7f
+    buildTimeAssetPath: Assets/My Stuff/Textures/Bridge.png
+  - fileID: 41
+    classID: 28
+    packedSize: 43812
+    offset: 7604104
+    sourceAssetGUID: a08b90f188f43c9429b6b84b6e2d696c
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Textures/blood-color.png
+  - fileID: 42
+    classID: 28
+    packedSize: 43808
+    offset: 7647920
+    sourceAssetGUID: cd8367c9e9db7461a95f3b01fd57c547
+    buildTimeAssetPath: Assets/TZ_Futuristic Panel Textures Lite/Textures/1panel_G.png
+  - fileID: 43
+    classID: 28
+    packedSize: 174884
+    offset: 7691728
+    sourceAssetGUID: dfcd4dcb2145c6d4f9da3e7654d22d9e
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Textures/base-color.png
+  - fileID: 44
+    classID: 28
+    packedSize: 174904
+    offset: 7866616
+    sourceAssetGUID: f316a245e9b238d4ebb59f5c6434b332
+    buildTimeAssetPath: Assets/My Stuff/Textures/WalkwayCorner.png
+  - fileID: 45
+    classID: 28
+    packedSize: 2796332
+    offset: 8041520
+    sourceAssetGUID: ff91cef54bb04124b899f12176bee5d1
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Textures/base-color-normal.png
+  - fileID: 46
+    classID: 43
+    packedSize: 2104
+    offset: 10837856
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 47
+    classID: 43
+    packedSize: 2104
+    offset: 10839960
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 48
+    classID: 43
+    packedSize: 2104
+    offset: 10842064
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 49
+    classID: 43
+    packedSize: 1808
+    offset: 10844168
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 50
+    classID: 43
+    packedSize: 3088
+    offset: 10845976
+    sourceAssetGUID: 1a3da06d2dd190045be662fc61d3b5aa
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Rails.fbx
+  - fileID: 51
+    classID: 43
+    packedSize: 3284
+    offset: 10849064
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 52
+    classID: 43
+    packedSize: 1244
+    offset: 10852352
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 53
+    classID: 43
+    packedSize: 2104
+    offset: 10853600
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 54
+    classID: 43
+    packedSize: 1240
+    offset: 10855704
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 55
+    classID: 43
+    packedSize: 2104
+    offset: 10856944
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 56
+    classID: 43
+    packedSize: 2104
+    offset: 10859048
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 57
+    classID: 43
+    packedSize: 3208
+    offset: 10861152
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 58
+    classID: 43
+    packedSize: 3208
+    offset: 10864360
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 59
+    classID: 43
+    packedSize: 45296
+    offset: 10867568
+    sourceAssetGUID: 59d4ac89ee6d63c419f2135ab5af3ebc
+    buildTimeAssetPath: Assets/My Stuff/Assets/sci_fi_wall.fbx
+  - fileID: 60
+    classID: 43
+    packedSize: 2104
+    offset: 10912864
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 61
+    classID: 43
+    packedSize: 3284
+    offset: 10914968
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 62
+    classID: 43
+    packedSize: 2104
+    offset: 10918256
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 63
+    classID: 43
+    packedSize: 22132
+    offset: 10920360
+    sourceAssetGUID: 5c776899fe0928242bb27cc11ad3f81e
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Models/floor_2_LOD1.fbx
+  - fileID: 64
+    classID: 43
+    packedSize: 1816
+    offset: 10942496
+    sourceAssetGUID: 8d199d8824e784743af821727659334b
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Models/floor_6.fbx
+  - fileID: 65
+    classID: 43
+    packedSize: 50400
+    offset: 10944312
+    sourceAssetGUID: 932518e1472904244afe21e844fd83ab
+    buildTimeAssetPath: Assets/Sci-Fi Styled Modular Pack/Models/floor_2_LOD0.fbx
+  - fileID: 66
+    classID: 43
+    packedSize: 1800
+    offset: 10994712
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 67
+    classID: 43
+    packedSize: 1244
+    offset: 10996512
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 68
+    classID: 43
+    packedSize: 10808
+    offset: 10997760
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 69
+    classID: 43
+    packedSize: 7404
+    offset: 11008568
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 70
+    classID: 43
+    packedSize: 8076
+    offset: 11015976
+    sourceAssetGUID: 759e6682e778e4a449bb4639ac161767
+    buildTimeAssetPath: Assets/My Stuff/Assets/Storage_unit_Update.fbx
+  - fileID: 71
+    classID: 43
+    packedSize: 1816
+    offset: 11024056
+    sourceAssetGUID: a9ab628a10913af42a0effd51c4fc1a9
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Walkway (2).fbx
+  - fileID: 72
+    classID: 43
+    packedSize: 2104
+    offset: 11025872
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 73
+    classID: 43
+    packedSize: 11544
+    offset: 11027976
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 74
+    classID: 43
+    packedSize: 2732
+    offset: 11039520
+    sourceAssetGUID: 1a3da06d2dd190045be662fc61d3b5aa
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Rails.fbx
+  - fileID: 75
+    classID: 43
+    packedSize: 2104
+    offset: 11042256
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 76
+    classID: 43
+    packedSize: 2104
+    offset: 11044360
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 77
+    classID: 43
+    packedSize: 16388
+    offset: 11046464
+    sourceAssetGUID: 9a35cd065660bff4da61899a3a0f8d0b
+    buildTimeAssetPath: Assets/My Stuff/Assets/Rim.fbx
+  - fileID: 78
+    classID: 43
+    packedSize: 2104
+    offset: 11062856
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 79
+    classID: 43
+    packedSize: 3208
+    offset: 11064960
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 80
+    classID: 43
+    packedSize: 3208
+    offset: 11068168
+    sourceAssetGUID: dfa2268a707453e4490d463cb0fe1cce
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Bridge (1).fbx
+  - fileID: 81
+    classID: 43
+    packedSize: 4304
+    offset: 11071376
+    sourceAssetGUID: 7f3c7bbfbe9b926488f105ef99056e80
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_fi_walkway_corner (1).fbx
+  - fileID: 82
+    classID: 43
+    packedSize: 1528
+    offset: 11075680
+    sourceAssetGUID: a9ab628a10913af42a0effd51c4fc1a9
+    buildTimeAssetPath: Assets/My Stuff/Assets/Sci_Fi_Walkway (2).fbx
+  - fileID: 83
+    classID: 48
+    packedSize: 1151824
+    offset: 11077208
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 84
+    classID: 48
+    packedSize: 12864
+    offset: 12229032
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 85
+    classID: 48
+    packedSize: 72720
+    offset: 12241896
+    sourceAssetGUID: 0b7113dea2069fc4e8943843eff19f70
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-StandardLite.shader
+  - fileID: 86
+    classID: 48
+    packedSize: 123080
+    offset: 12314616
+    sourceAssetGUID: 1ccecd9b89b8a4f14bfb64f29ddfcc81
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - fileID: 87
+    classID: 48
+    packedSize: 17176
+    offset: 12437696
+    sourceAssetGUID: 2dcd9e0568e0a6f45b92c60ba2eb16a0
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Diffuse.shader
+  - fileID: 88
+    classID: 115
+    packedSize: 96
+    offset: 69744
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 89
+    classID: 115
+    packedSize: 108
+    offset: 69840
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 90
+    classID: 115
+    packedSize: 88
+    offset: 69952
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 91
+    classID: 115
+    packedSize: 128
+    offset: 70040
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 92
+    classID: 114
+    packedSize: 17068
+    offset: 12454872
+    sourceAssetGUID: 60245a7d8954dfc42b32678b66aafe2c
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset

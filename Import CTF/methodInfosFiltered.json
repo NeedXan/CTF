@@ -1,0 +1,17 @@
+{
+	"PlayerStats.TakeDamage": {
+		"methodName": "__0_TakeDamage",
+		"parameters": [
+			"__0_damage__param",
+			"__0_idTaking__param",
+			"__0_idGiving__param"
+		]
+	},
+	"PlayerStats.OnKillFeat": {
+		"methodName": "__0_OnKillFeat",
+		"parameters": [
+			"__0_idKilled__param",
+			"__0_idKiller__param"
+		]
+	}
+}
